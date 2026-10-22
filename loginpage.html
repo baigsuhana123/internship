@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Login Page</title>
+
+    <style>
+        body {
+            background: linear-gradient(135deg, navy, #483080);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .box {
+            background: #172554;
+            padding: 30px;
+            border: 2px solid skyblue;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 0 20px skyblue;
+            color: white;
+            width: 260px;
+        }
+
+        h2 {
+            color: #a5d8ff;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background: skyblue;
+            color: navy;
+            padding: 10px 30px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h2>Welcome Home ✨</h2>
+        <p>Please login to continue</p>
+
+        <input type="email" placeholder="Enter Email">
+        <input type="password" placeholder="Enter Password">
+
+        <button onclick="alert('Welcome Home!')">
+            Login
+        </button>
+    </div>
+
+</body>
+</html>
