@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suhana | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #080b20, #251747, #101b3d);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 8%;
+            background: #080b2080;
+        }
+
+        nav h2 {
+            color: #bda0ff;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 18px;
+        }
+
+        nav a:hover {
+            color: #bda0ff;
+        }
+
+        .home {
+            min-height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .home h1 {
+            font-size: 45px;
+            margin: 15px 0;
+        }
+
+        .home span {
+            color: #c4a5ff;
+        }
+
+        .home p {
+            color: #d0cce0;
+            line-height: 1.8;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #bda0ff;
+            color: #10102c;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #c4a5ff;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: #ffffff10;
+            border: 1px solid #bda0ff50;
+            border-radius: 18px;
+            padding: 25px;
+            margin: 15px auto;
+            max-width: 500px;
+            box-shadow: 0 5px 20px #00000025;
+        }
+
+        .card p {
+            color: #ddd8ed;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #c4a5ff;
+        }
+
+        @media (max-width: 500px) {
+            nav {
+                padding: 18px 5%;
+            }
+
+            nav a {
+                margin-left: 8px;
+                font-size: 12px;
+            }
+
+            .home h1 {
+                font-size: 34px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Suhana.</h2>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </div>
+    </nav>
+
+    <div class="home" id="home">
+        <div>
+            <p>HELLO, WELCOME TO MY PORTFOLIO ✨</p>
+            <h1>Hi, I'm <span>Suhana</span></h1>
+            <h3>BCA Student | Future Web Developer</h3>
+            <p>I love learning coding and creating beautiful websites.</p>
+            <a href="#projects" class="btn">Explore My Work ↗</a>
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="card">
+            <p>
+                I am a BCA student interested in web development.
+                I am learning HTML, CSS, Java and Python.
+                My goal is to build creative projects and become
+                a skilled software developer.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="card">
+            <p>HTML ✦ CSS ✦ Java ✦ Python ✦ GitHub</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="card">
+            <h3>Login Page</h3>
+            <p>A stylish login page using HTML and CSS.</p>
+        </div>
+
+        <div class="card">
+            <h3>Hospital Registration Form</h3>
+            <p>A simple hospital form project for practice.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="card">
+            <p>Let's connect and build something creative!</p>
+            <p>Email: your-email@example.com</p>
+        </div>
+    </section>
+
+    <footer>
+        Made with ♡ by Suhana
+    </footer>
+
+</body>
+</html>
